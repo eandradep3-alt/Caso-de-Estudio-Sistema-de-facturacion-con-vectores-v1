@@ -1,23 +1,20 @@
 # Caso-de-Estudio-Sistema-de-facturacion-con-vectores
+
 ## Descripción
 
-Este proyecto corresponde a la práctica del caso de estudio **Sistema de Facturación con Vectores**, desarrollada para la asignatura de **Técnica de Programación**.
+Este proyecto corresponde al **Trabajo Práctico Experimental 3** de la asignatura **Técnica de Programación** de la Universidad Estatal de Milagro (UNEMI).
 
-La aplicación fue desarrollada utilizando **HTML, CSS y JavaScript**, tomando como base el archivo proporcionado por el docente. El sistema permite registrar productos en una factura, calcular automáticamente los valores correspondientes y administrar el detalle de la compra mediante el uso de vectores separados
+El desarrollo se realizó a partir del archivo base proporcionado por el docente, implementando la lógica del sistema mediante **JavaScript** y utilizando **vectores (arreglos)** para almacenar la información de los productos agregados a la factura. Durante esta primera parte se trabajó en la manipulación de los arreglos y en la validación de su funcionamiento mediante pruebas ejecutadas en el navegador y la consola.
 
-## Funcionalidades
+## Funcionalidades implementadas
 
 - Selección de productos desde una lista desplegable.
-- Registro de la cantidad de cada producto.
-- Visualización del precio unitario y total por producto.
-- Agregado de productos al detalle de la factura.
-- Actualización automática de cantidades cuando un producto ya existe.
-- Eliminación de productos del detalle de la factura.
-- Cálculo automático del subtotal.
-- Cálculo del IVA (15%).
-- Aplicación de descuento.
-- Cálculo automático del total a pagar.
-- Actualización de la factura en tiempo real.
+- Ingreso de la cantidad de productos.
+- Visualización automática del precio unitario.
+- Registro de productos en vectores (arreglos).
+- Actualización de la cantidad cuando un producto ya existe en el arreglo.
+- Cálculo del total por producto.
+- Visualización del contenido de los arreglos en la consola para comprobar su funcionamiento.
 
 ## Tecnologías utilizadas
 
@@ -25,12 +22,14 @@ La aplicación fue desarrollada utilizando **HTML, CSS y JavaScript**, tomando c
 - CSS3
 - JavaScript
 
+## Evidencia de ejecución
 
-**Asignatura:** Técnica de Programación
+Para verificar el funcionamiento del programa se realizaron pruebas agregando diferentes productos desde la interfaz. Posteriormente, se utilizó la consola del navegador para comprobar que la información se almacenara correctamente en los vectores y que, al agregar nuevamente un producto existente, la cantidad se actualizara sin crear un nuevo registro.
 
-**Universidad:** Universidad Estatal de Milagro (UNEMI)
+## Asignatura
 
+**Técnica de Programación**
 
-## Observaciones
+## Universidad
 
-El proyecto fue desarrollado respetando el archivo base proporcionado por el docente y aplicando el uso de vectores separados, funciones, eventos y manipulación del DOM para implementar la lógica del sistema de facturación.
+**Universidad Estatal de Milagro (UNEMI)**
